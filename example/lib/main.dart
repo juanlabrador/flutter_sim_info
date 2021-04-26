@@ -10,11 +10,11 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String _allowsVOIP;
-  String _carrierName;
-  String _isoCountryCode;
-  String _mobileCountryCode;
-  String _mobileNetworkCode;
+  String? _allowsVOIP;
+  String? _carrierName;
+  String? _isoCountryCode;
+  String? _mobileCountryCode;
+  String? _mobileNetworkCode;
 
   @override
   void initState() {

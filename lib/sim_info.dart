@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:io';
 
 import 'package:flutter/services.dart';
 
@@ -27,5 +26,4 @@ class SimInfo {
   static Future<String> get getMobileNetworkCode async {
     return await _channel.invokeMethod('mobileNetworkCode');
   }
-
 }
